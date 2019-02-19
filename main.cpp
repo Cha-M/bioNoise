@@ -90,8 +90,6 @@ void randomStart()
 SDL_Window* chWindow = NULL;
 SDL_Surface* chImageSurface = NULL;
 SDL_Surface* chImageSurfaceB = NULL;
-SDL_Surface* allFrames = NULL;
-SDL_Rect position;//not initialising this one as a pointer
 SDL_Surface* chScreenSurface = NULL;
 SDL_Renderer *chRender = NULL;
 SDL_Texture *chTex = NULL;
